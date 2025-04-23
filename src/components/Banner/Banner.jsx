@@ -6,7 +6,7 @@ const Banner = () => {
   return (
      //Background Image add
     <div
-      className="w-full rounded-md h-130 bg-cover bg-center flex items-center justify-center"
+      className="w-full rounded-md opacity-95 h-130 bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url(${BackgrounImg})` }}
     >
      <div>

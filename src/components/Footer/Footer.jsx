@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 import ImgLogo from "../../assets/logo.png";
   
 //Footer section design
@@ -16,10 +16,10 @@ const Footer = () => {
 
         {/* //Navbar all link add */}
       <div className='flex gap-4 flex-row text-center text-white'>
-         <Link to="/">Home</Link>
-        <Link to="/booking">My Bookings</Link>
-        <Link to='/blog'>Blogs</Link>
-        <Link to="/sdfre" >Contact</Link>
+         <NavLink to="/">Home</NavLink>
+        <NavLink to="/booking">My Bookings</NavLink>
+        <NavLink to='/blog'>Blogs</NavLink>
+        <NavLink to="/sdfre" >Contact</NavLink>
       </div>
 
       <div className='w-full border-t border-white border-dashed'></div>
